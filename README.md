@@ -1,6 +1,7 @@
 # Usage
 
-- android -> ./grawled clean
+- Go android
+  - ./grawled clean
 - npm start
 - npm run android
 
