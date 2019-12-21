@@ -5,17 +5,12 @@ import {View, Text, Button} from 'react-native';
 import ContactList from '../../components/contactList';
 
 const Home = ({navigation}) => {
-  const navigateDetails = () => {
-    navigation.navigate('Details');
-  };
-
   return (
     <View>
-      <Text>Home</Text>
+      <Text style={{fontSize: 20, padding: 10, fontWeight: '800'}}>
+        List of contacts
+      </Text>
       <ContactList navigation={navigation} />
-      <Button title={'Go to details screen'} onPress={navigateDetails}>
-        Go to details
-      </Button>
     </View>
   );
 };
